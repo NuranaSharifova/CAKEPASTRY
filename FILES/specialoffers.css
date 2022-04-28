@@ -1,0 +1,28 @@
+.card-body {
+    background-color: #c5c5ff;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url("products-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.circle {
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.dark {
+    background-color: rgb(127, 18, 222);
+}

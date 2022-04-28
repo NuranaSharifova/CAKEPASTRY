@@ -1,0 +1,26 @@
+.banner {
+    background-image: url("products-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+.text {
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    background-color: #a5a5f8;
+    color: white;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    color: #a5a5f8;
+}
+
+.contactform {
+    box-shadow: 0px 2px 55px -7px rgb(0 0 0 / 47%);
+}

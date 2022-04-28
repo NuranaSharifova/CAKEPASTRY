@@ -1,0 +1,116 @@
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    .block2 {
+        animation: changeBg 20s infinite;
+        background-size: cover;
+        height: 75vh;
+    }
+    
+    @keyframes changeBg {
+        0%,
+        100% {
+            background-image: url(banner.jpg);
+        }
+        25% {
+            background-image: url(banner2.jpg);
+        }
+        50% {
+            background-image: url(banner3.jpg);
+        }
+        75% {
+            background-image: url(banner.jpg);
+        }
+    }
+    
+    .innerblock3 {
+        background-color: rgba(22, 19, 19, 0.7);
+        margin-top: 17vh;
+        margin-left: 100vh;
+        width: 70vh;
+    }
+    
+    h2 {
+        color: white;
+    }
+    
+    .btn1 {
+        background-color: transparent;
+        color: white;
+        border: 1px solid #acacfe;
+    }
+    
+    .violet1 {
+        color: #53538d;
+        font-style: normal;
+        font-size: 35px;
+        font-family: Josefin Sans, sans-serif;
+    }
+    
+    .violet2 {
+        color: #a5a5f8;
+        font-size: 45px;
+        font-family: Josefin Sans, sans-serif;
+        line-height: 0;
+    }
+    
+    .parag2 {
+        font-size: 14px;
+        text-align: justify;
+    }
+    
+    .block4 {
+        background-color: #fafafa;
+    }
+    
+    .itembackground {
+        background-color: rgba(172, 172, 254, 0.7);
+        color: white;
+        height: 50px;
+        position: absolute;
+        top: 260px;
+        width: 267px;
+        text-align: center;
+    }
+    
+    .block5 {
+        height: 50vh;
+        background-image: url("booking_img.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .btn2 {
+        background-color: transparent;
+        color: white;
+        border: 2px solid #acacfe;
+    }
+    
+    .green {
+        color: #96ff00;
+    }
+    
+    .innerblock4 {
+        background-color: rgba(22, 19, 19, 0.7);
+        width: 300vh;
+        height: 50vh;
+    }
+    
+    .innerblock4position {
+        position: absolute;
+        margin-top: 15vh;
+        margin-left: 100vh;
+        font-family: Josefin Sans, sans-serif;
+        font-weight: lighter;
+    }
+    
+    .largefont {
+        font-size: 70px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .innerblock3 {
+            margin-left: 10px;
+            padding-left: 10px;
+            width: 250px;
+            padding-bottom: 10px;
+        }
+    }

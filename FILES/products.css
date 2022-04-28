@@ -1,0 +1,25 @@
+.banner {
+    background-image: url("products-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+.text {
+    text-align: center;
+    color: white;
+}
+
+.line {
+    border: 1px solid white;
+}
+
+.itembackground {
+    background-color: rgba(172, 172, 254, 0.7);
+    color: white;
+    height: 50px;
+    position: absolute;
+    top: 400px;
+    width: 390px;
+    text-align: center;
+}
